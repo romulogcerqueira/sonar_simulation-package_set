@@ -1,0 +1,12 @@
+cmake_package 'simulation/normal_depth_map'
+cmake_package 'simulation/gpu_sonar_simulation'
+cmake_package 'gui/vizkit3d_world'
+
+orogen_package 'simulation/orogen/imaging_sonar_simulation'
+orogen_package 'gui/orogen/vizkit3d_world'
+
+metapackage 'sonar_simulation',
+    'simulation/normal_depth_map',
+    'simulation/gpu_sonar_simulation',
+    'simulation/orogen/imaging_sonar_simulation',
+    'gui/orogen/vizkit3d_world'

@@ -1,0 +1,13 @@
+name: sonar_simulation
+
+version_control:
+    - simulation/normal_depth_map:
+        github: Brazilian-Institute-of-Robotics/simulation-normal_depth_map
+    - simulation/gpu_sonar_simulation:
+        github: Brazilian-Institute-of-Robotics/simulation-gpu_sonar_simulation
+    - simulation/orogen/imaging_sonar_simulation:
+        github: Brazilian-Institute-of-Robotics/simulation-orogen-imaging_sonar_simulation
+    - gui/vizkit3d_world:
+        github: Brazilian-Institute-of-Robotics/gui-vizkit3d_world
+    - gui/orogen/vizkit3d_world:
+        github: Brazilian-Institute-of-Robotics/gui-orogen-vizkit3d_world
