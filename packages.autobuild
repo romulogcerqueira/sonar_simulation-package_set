@@ -2,6 +2,10 @@ cmake_package 'simulation/normal_depth_map'
 cmake_package 'simulation/gpu_sonar_simulation'
 cmake_package 'gui/vizkit3d_world'
 
+import_package 'simulation/uwmodels' do |pkg|
+    Autoproj.env_add_path 'GAZEBO_MODEL_PATH', File.join(pkg.srcdir, 'sdf')
+end
+
 orogen_package 'simulation/orogen/imaging_sonar_simulation'
 orogen_package 'gui/orogen/vizkit3d_world'
 

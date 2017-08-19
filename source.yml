@@ -11,3 +11,5 @@ version_control:
         github: Brazilian-Institute-of-Robotics/gui-vizkit3d_world
     - gui/orogen/vizkit3d_world:
         github: Brazilian-Institute-of-Robotics/gui-orogen-vizkit3d_world
+    - simulation/uwmodels:
+        github: romulogcerqueira/simulation-uwmodels
