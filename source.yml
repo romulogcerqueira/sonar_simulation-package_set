@@ -1,4 +1,4 @@
-name: sonar_simulation
+name: sonar_simulation.package_set
 
 version_control:
     - gui/vizkit3d_world:

@@ -27,5 +27,9 @@ metapackage 'sonar_simulation',
     'simulation/normal_depth_map',
     'simulation/gpu_sonar_simulation',
     'simulation/orogen/imaging_sonar_simulation',
-    'gui/orogen/vizkit3d_world',
-    'simulation/examples'
+    'gui/orogen/vizkit3d_world'
+
+metapackage 'sonar_simulation.examples',
+    'sonar_simulation',
+    'simulation/examples',
+    'simulation/uwmodels'
