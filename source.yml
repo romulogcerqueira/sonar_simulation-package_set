@@ -1,6 +1,14 @@
 name: sonar_simulation
 
 version_control:
+    - gui/vizkit3d_world:
+        github: Brazilian-Institute-of-Robotics/gui-vizkit3d_world
+    - gui/orogen/vizkit3d_world:
+        github: Brazilian-Institute-of-Robotics/gui-orogen-vizkit3d_world
+    - gui/osg_ocean:
+        github: Brazilian-Institute-of-Robotics/gui-osg_ocean
+    - gui/vizkit3d_ocean:
+        github: Brazilian-Institute-of-Robotics/gui-vizkit3d_ocean
     - simulation/normal_depth_map:
         github: Brazilian-Institute-of-Robotics/simulation-normal_depth_map
         tag: v1.0
@@ -9,10 +17,8 @@ version_control:
         tag: v1.0
     - simulation/orogen/imaging_sonar_simulation:
         github: romulogcerqueira/simulation-orogen-imaging_sonar_simulation
-    - gui/vizkit3d_world:
-        github: Brazilian-Institute-of-Robotics/gui-vizkit3d_world
-    - gui/orogen/vizkit3d_world:
-        github: Brazilian-Institute-of-Robotics/gui-orogen-vizkit3d_world
     - simulation/uwmodels:
         github: romulogcerqueira/simulation-uwmodels
         tag: v1.0
+    - simulation/examples:
+        github: romulogcerqueira/simulation-examples
