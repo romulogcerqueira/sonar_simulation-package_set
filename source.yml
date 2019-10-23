@@ -14,12 +14,12 @@ version_control:
         branch: feature/reverb
     - simulation/gpu_sonar_simulation:
         github: Brazilian-Institute-of-Robotics/simulation-gpu_sonar_simulation
-        branch: feature/reverb
     - simulation/orogen/imaging_sonar_simulation:
         github: Brazilian-Institute-of-Robotics/simulation-orogen-imaging_sonar_simulation
-        branch: feature/reverb
+        branch: minor_fix
     - simulation/uwmodels:
         github: romulogcerqueira/simulation-uwmodels
-        branch: feature/reverb
+        branch: cag2019
     - simulation/examples:
         github: romulogcerqueira/simulation-examples
+        branch: cag2019
