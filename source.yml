@@ -11,15 +11,11 @@ version_control:
         github: Brazilian-Institute-of-Robotics/gui-vizkit3d_ocean
     - simulation/normal_depth_map:
         github: Brazilian-Institute-of-Robotics/simulation-normal_depth_map
-        tag: v1.0
     - simulation/gpu_sonar_simulation:
         github: Brazilian-Institute-of-Robotics/simulation-gpu_sonar_simulation
-        tag: v1.0
     - simulation/orogen/imaging_sonar_simulation:
         github: Brazilian-Institute-of-Robotics/simulation-orogen-imaging_sonar_simulation
-        tag: v1.0
     - simulation/uwmodels:
         github: romulogcerqueira/simulation-uwmodels
-        tag: v1.0
     - simulation/examples:
         github: romulogcerqueira/simulation-examples
