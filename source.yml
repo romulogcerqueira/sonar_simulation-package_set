@@ -11,10 +11,13 @@ version_control:
         github: Brazilian-Institute-of-Robotics/gui-vizkit3d_ocean
     - simulation/normal_depth_map:
         github: Brazilian-Institute-of-Robotics/simulation-normal_depth_map
+        branch: improvements
     - simulation/gpu_sonar_simulation:
         github: Brazilian-Institute-of-Robotics/simulation-gpu_sonar_simulation
+        branch: improvements
     - simulation/orogen/imaging_sonar_simulation:
         github: Brazilian-Institute-of-Robotics/simulation-orogen-imaging_sonar_simulation
+        branch: revert-30-fix_update_msis
     - simulation/uwmodels:
         github: romulogcerqueira/simulation-uwmodels
     - simulation/examples:
