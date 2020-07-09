@@ -2,11 +2,11 @@ name: sonar_simulation.package_set
 
 version_control:
     - simulation/normal_depth_map:
-        github: Brazilian-Institute-of-Robotics/simulation-normal_depth_map
+        github: romulogcerqueira/simulation-normal_depth_map
     - simulation/gpu_sonar_simulation:
-        github: Brazilian-Institute-of-Robotics/simulation-gpu_sonar_simulation
+        github: romulogcerqueira/simulation-gpu_sonar_simulation
     - simulation/orogen/imaging_sonar_simulation:
-        github: Brazilian-Institute-of-Robotics/simulation-orogen-imaging_sonar_simulation
+        github: romulogcerqueira/simulation-orogen-imaging_sonar_simulation
     - simulation/uwmodels:
         github: romulogcerqueira/simulation-uwmodels
     - simulation/examples:
